@@ -15,6 +15,10 @@ html {
   font-family: Lobster;
 }
 
+.small-icon { 
+  cursor: pointer;
+}
+
 .search {
   border-radius: 15px;
   background-color: var(--bs-gray);
