@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+* {
+  color: var(--bs-white);
+}
+
+html {
+  min-height: 150vh;
+}
+.container {
+  background-color: black;
+}
+
+.left-logo {
+  font-family: Lobster;
+}
+
+.search {
+  border-radius: 15px;
+  background-color: var(--bs-gray);
+  overflow: hidden;
+}
+
+.search-icon {
+  padding: 5px 10px;
+}
+
+.search input {
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: var(--bs-gray);
+}
+
+.rainbow-bg {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    210deg,
+    #4158d0 0%,
+    #c850c0 45%,
+    #ffcc70 100%
+  );
+}
+
+.avarta {
+  margin: 20px 20%;
+}
+
+.avarta img {
+  object-fit: cover;
+  border: 10px solid transparent;
+}
+
+.circle {
+  padding-top: 100%;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circle .content {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  padding: 0px 10%;
+  height: 100%;
+  width: 100%;
+}
+
+.border-white {
+  border: 3px solid var(--bs-white);
+}
+
+.of-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.rainbow-bar {
+  height: 5px;
+  background-image: linear-gradient(
+    to right,
+    #fcc5e4 0%,
+    #fda34b 15%,
+    #ff7882 35%,
+    #c8699e 52%,
+    #7046aa 71%,
+    #0c1db8 100%
+  );
+  display: block;
+  width: 80px;
+}
+
+a {
+  text-decoration: none;
+}
